@@ -1,0 +1,192 @@
+body{
+    font-size: 100%;
+    background-color: #DED1D1;
+    margin: 0%;
+
+}
+
+header{
+
+   
+    background-color:#50A060;
+    padding: 10px; 
+    flex-basis: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+header  li{
+    display: inline;
+    transition: .3s ease;
+    font-size: 20px;
+
+}
+header li div{
+    display: flex;
+    align-items: center;}
+header li a{
+    color:ivory;
+    text-decoration: none;
+    padding: 13px;
+
+}
+
+header li a:hover
+{
+    color:dimgrey;
+}
+header ul #a a{
+    color:#50A060;
+    background-color: #DED1D1;
+    border-radius: 30px;
+    float: right;
+    transition: .3s ease;
+    margin-right: 20px;
+    margin-top: -40px;
+
+}
+header li #img1{
+    width: 150px;
+    float: left; 
+
+}
+header ul #a a:hover{
+    background-color:dimgrey;
+}
+
+ nav{
+    position: fixed;
+    left: 0%;
+    top: 15%;
+    height: 100%;
+    background-color:#71a87c;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  nav li {
+    margin-bottom: 1px;
+    padding-bottom: 20px;
+  }
+  
+  nav a {
+    color:#50A060;
+    background-color: #DED1D1;
+    border-radius: 30px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .b{
+    color:grey;
+  }
+
+.div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    margin-left: 300px;
+    margin-top: 200px;
+
+}
+
+.table1{
+    
+
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 1.3em;
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: black;
+    border: 1px solid #ccc;
+
+}
+.table1 thead tr{
+    background-color: #50A060;
+    color: #DED1D1;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.table1 th,
+.table1 td{
+   
+padding: 12px 13px;
+}
+
+.table1 tr #a2 a{
+    text-decoration: none;
+    color:firebrick;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.table1 tbody tr{
+    border-bottom: 1px solid #50A060;
+}
+.table1 tbody tr:nth-of-type(even){
+    background-color: #71a87c;
+
+}
+.table1 tbody tr:nth-of-type(odd){
+    background-color: #869689;
+
+}
+footer{
+
+   
+    background-color:#50A060;
+    flex-basis: 100%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+footer li{
+    display: inline;
+    padding-left: 44px;
+    transition: .3s ease;
+
+}
+footer li a{
+    color:ivory;
+    text-decoration: none;
+    padding: 13px;
+
+}
+footer li {
+    color:ivory;
+    text-decoration: none;
+    padding: 13px;
+
+}
+footer li a:hover
+{
+    color:dimgrey;
+}
+footer ul #a1 a{
+    color:#50A060;
+    background-color: #DED1D1;
+    border-radius: 30px;
+    float: right;
+    transition: .3s ease;
+    margin-top: -10px;
+    margin-right: 14px;
+}
+footer ul #a1 a:hover{
+    background-color:dimgrey;
+}
